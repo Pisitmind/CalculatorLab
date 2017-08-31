@@ -17,6 +17,8 @@ namespace CPE200Lab1
         private bool isAfterOperater;
         private bool isAfterEqual;
         private string firstOperand;
+        private string secondOperand;
+        private string thirdOperand;
         private string operate;
         private bool isOperater;
 
@@ -223,6 +225,11 @@ namespace CPE200Lab1
         private void lblDisplay_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnMC_Click(object sender, EventArgs e)
+        {
+            //เขียนยังไงอ่ะmergeละโค้ดจะแตกป่าวครับ
         }
     }
 }
