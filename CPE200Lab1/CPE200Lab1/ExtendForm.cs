@@ -169,7 +169,7 @@ namespace CPE200Lab1
                 lblDisplay.Text += " ";
                 isSpaceAllowed = false;
                  isContainDot = false;
-            }
+            }//เพิ่มไฟล์
         }
     }
 }
