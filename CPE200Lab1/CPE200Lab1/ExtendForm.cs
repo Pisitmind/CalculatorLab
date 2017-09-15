@@ -167,8 +167,8 @@ namespace CPE200Lab1
             if (isSpaceAllowed)
             {
                 lblDisplay.Text += " ";
-                isSpaceAllowed = false;
-                 isContainDot = false;
+                isSpaceAllowed = false; 
+                isContainDot = false;
             }//เพิ่มไฟล์
         }
     }
