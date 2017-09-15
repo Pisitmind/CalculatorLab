@@ -87,7 +87,7 @@ namespace CPE200Lab1
             }
             if (lblDisplay.Text is "")
             {
-                lblDisplay.Text = "0";
+              //  lblDisplay.Text = "0";
             }
         }
 
