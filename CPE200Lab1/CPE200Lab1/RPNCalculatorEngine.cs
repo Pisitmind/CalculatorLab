@@ -10,7 +10,7 @@ namespace CPE200Lab1
     {
         public new string Process(string str)
         {
-            if (str == null || str == "" ) return "E" ;
+            if (str == null || str == "") return "E";
             Stack<string> rpnStack = new Stack<string>();
             List<string> parts = str.Split(' ').ToList<string>();
             string result;
@@ -37,7 +37,7 @@ namespace CPE200Lab1
                     {
                         return "E";
                     }
-                    
+
                     result = calculate(token, firstOperand, secondOperand, 6);
                     if (result is "E")
                     {
@@ -45,7 +45,7 @@ namespace CPE200Lab1
                     }
                     rpnStack.Push(result);
                 }
-                else if(token.Length > 1)
+                else if (token.Length > 1)
                 {
                     return "E";
                 }
@@ -55,7 +55,7 @@ namespace CPE200Lab1
             {
                 result = rpnStack.Pop();
             }
-            catch(InvalidOperationException)
+            catch (InvalidOperationException)
             {
                 return "E";
             }
